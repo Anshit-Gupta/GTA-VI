@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
-    outDir: 'dist',   // default, but explicit for Vercel
+    outDir: 'dist',
   },
-  base: './',         // ensures assets load correctly in production
+  base: process.env.NODE_ENV === 'production' ? '/GTA-VI/' : './',
 })

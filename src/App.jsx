@@ -98,7 +98,7 @@ const App = () => {
         </defs>
 
         <image
-          href="/bg.png"
+          href="./bg.png"
           width="100%"
           height="100%"
           preserveAspectRatio='xMidYMid slice'
