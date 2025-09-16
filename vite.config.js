@@ -8,5 +8,5 @@ export default defineConfig({
   build: {
     outDir: 'dist',   // default, but explicit for Vercel
   },
-  base: './',         // ensures assets load correctly in production
+  base: '/',         // ensures assets load correctly in production
 })
