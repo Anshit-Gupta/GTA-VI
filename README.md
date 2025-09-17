@@ -1,12 +1,34 @@
-# React + Vite
+# GTA-Style Landing — React + GSAP Playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small interactive landing page inspired by GTA6 visuals that demonstrates using **GSAP** with **React**: masked intro animation, a custom cursor, and simple parallax text/background movement.
 
-Currently, two official plugins are available:
+Live demo: https://gta-vi-anshit.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Intro SVG text mask that scales & fades into the main site.
+- Smooth timeline animation using GSAP.
+- Custom cursor that follows the mouse with easing.
+- Simple parallax: headline, sky, and background move slightly with mouse.
+- Tailwind-style classes (used in the project) — easy to style.
 
-## Expanding the ESLint configuration
+## Tech
+- React (functional components + hooks)
+- GSAP (`gsap`) and `@gsap/react` hook
+- Remix Icon (icons)
+- Tailwind CSS (or regular CSS — classes in code assume Tailwind-like utilities)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Install & run (recommended: Vite)
+```bash
+# clone
+git clone https://github.com/<your-username>/<repo>.git
+cd <repo>
+
+# install
+npm install
+# or
+yarn
+
+# dev
+npm run dev
+# or for CRA
+npm start
