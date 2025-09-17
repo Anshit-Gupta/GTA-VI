@@ -18,17 +18,7 @@ Live demo: https://gta-vi-anshit.vercel.app/
 - Tailwind CSS (or regular CSS — classes in code assume Tailwind-like utilities)
 
 
-## strucutre
-  src/
-  App.jsx         # main component with GSAP logic (the file you shared)
-  main.jsx        # React entry
-  assets/
-    bg.png
-    sky.png
-    girlbg.png
-    imag.png
-    ps5.png
-  index.css       # global / tailwind styles
+
 
 
 ## Install & run (recommended: Vite)
